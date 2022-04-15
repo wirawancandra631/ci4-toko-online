@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 0.8em;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navigasi{
+    background-color: rgb(69, 164, 228);
+}
+.profil{
+    background-color: rgb(122, 221, 122);
+}
+.back-home{
+    background-color: rgb(148, 117, 60)
+}
+.form-beli{
+    width: 50%;
+}
+.card-get-produk{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 15%;
+}
+
+.content-users-orders{
+    margin-bottom: 10%;
+}
+@media screen and (max-width:330px) {
+    .profil img{
+        width: 90px;
+        height: 90px;
+    }
+    .form-beli{
+        width: 80%;
+    }
+}
+@media screen and (min-width:601px) {
+    .form-beli{
+        width: 70%;
+    }
+    body{
+        font-size: 0.8em;
+    }
+    .box-daftar{
+        margin: 10% 0;
+    }
+}
+@media screen and (max-width:600px) {
+    .content-users-orders{
+        margin-bottom: 20%;
+    }
+    .card-get-produk{
+        width: 100%;
+    }
+}
